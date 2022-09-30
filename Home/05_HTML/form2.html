@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion_blank</title>
+    <style>
+        body {
+            margin: 5%;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">Заполните Анкету</h1>
+<form action="http://fe.it-academy.by/TestForm.php"  method="post">
+<fieldset action="http://fe.it-academy.by/TestForm.php"  method="post">
+    <legend>Личные данные</legend>
+    <input type="text" name="last_name" required pattern="^[а-яА-ЯёЁ\s]+$" placeholder="Фамилия" maxlength="25" autofocus>
+    Только Кириллица, без пробелов, длинна поля 25, обязательное поле, автофокус на данном поле <br>
+    <input type="text" name="name" required pattern="^[а-яА-ЯёЁ\s]+$" placeholder="Имя" maxlength="20">
+    Только Кириллица, без пробелов, длинна поля 25, обязательное поле <br>
+    <input type="text" name="patronymic" required pattern="^[а-яА-ЯёЁ\s]+$" placeholder="Отчество" maxlength="25">
+    Только Кириллица, без пробелов, длинна поля 25, обязательное поле <br>
+    <fieldset>
+        <legend>Паспортные данные</legend><br>
+        Серия - только заглавные две латинские буквы с длиной 2 и максимальным количеством символов 2, количество
+        букв не менее 2, обязательное поле ,<br>
+        Номер паспорта - только цифры с длиной 7 и максимальным, и минимальным количеством символов 7, обязательное поле 
+        <input type="text" name="id1" minlength="2" maxlength="2" required pattern="^[a-zA-Z]+$"> 
+        <input type="number" name="id2"required pattern="[0-9],{,7,}"       
+    </fieldset>
+    <fieldset>
+        <legend>Дата рождения</legend>
+        <input type="number" max="2022" minlength="4" maxlength="4">Год рождения<br>
+        <input type="month" name="month" >Месяц<br>
+        <input type="number" max="31" name="day" maxlength="2" step="1" >день<br>
+    </fieldset>
+    <fieldset>
+        <select name="coutnry" size="1" required>
+            <option value="1">РБ</option>
+            <option value="1">РФ</option>
+            <option value="1">Украина</option>
+        </select>Национальность <br>
+        <br>
+        
+        Адрес<br>
+        <textarea name="address"></textarea>
+    </fieldset>
+</fieldset>
+<fieldset>
+    <legend>Интересы</legend>
+    <fieldset >
+        <legend>array: Хобби</legend>
+        <input type="radio" name="xobby1">Рыбалка<br>
+        <input type="radio" name="xobby2">Астрономия<br>
+        <input type="radio" name="xobby3">Дайвинг<br>
+        <input type="radio" name="xobby4">Марки<br>
+    </fieldset>
+    <fieldset>
+        <legend>Домашние животные</legend>
+        <select multiple name="animals">
+            <optgroup label="Попугаи">   
+                <option value="1">Волнистый</option>
+                <option value="2">Ара</option>
+                <option value="3">Неразлучник</option>
+                </optgroup>
+                <optgroup label="Рыба">
+                <option value="4">Караси</option>
+                <option value="5">Окуни</option>
+                <option value="6">Осётр</option>
+                </optgroup>
+            </optgroup>
+            <optgroup label="Птицы">
+            <option value="7">Стая ворон</option>
+            <option value="8">Аист</option>
+            <option value="9">Археоптерикс</option>
+            </optgroup>
+        </select>
+    </fieldset>
+</fieldset>
+<fieldset>
+    <legend>Данные для входа и восстановления пароля</legend>
+    <input type="text" name="re_login" minlength="5" maxlength="20" required pattern="^[a-zA-Z]+$" placeholder="логин">
+    <br>
+    <input type="password" minlength="5" maxlength="20" required pattern="^[a-zA-Z]+$" autocomplete="off" placeholder="пароль">
+</fieldset>
+<fieldset>
+    <legend>Координаты</legend>
+    <input type="email" placeholder="введите адрес почты">
+    <input type="url" placeholder="введите адрес сайта">
+</fieldset>
+<fieldset>
+    <legend>Цифры</legend>
+    <input type="number" name="sm_numb" min="-2.5" max="2.5" step="0.1"><br>
+    <input type="range" name="range" min="1" max="10">
+</fieldset>
+<fieldset action="http://fe.it-academy.by/TestForm.php" method="post">
+    <legend>Кнопки управления</legend>
+    <button type="submit">отправить</button>
+    <button type="reset">сбросить</button><br>
+    <button disabled><img src="images/email.jpg" alt="pochta"></button>
+
+</fieldset>
+
+
+</form>
+
+</body>
+</html>

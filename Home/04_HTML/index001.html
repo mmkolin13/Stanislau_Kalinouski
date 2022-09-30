@@ -98,14 +98,17 @@
 <p>Комментарии можно вставлять в любое место в строке, но помните, что Python проигнорирует все,
 что идет после <i>'#'</i>.</p>
 
-<table align="center">
-    <tr>
-        <td align="left"><a href="index000.html"><img src="img/arrow_left.png"></a></td>
-        <td align="center"><a href="index001.html"><img src="img/home.png"></a>
-        <td align="right"><a href="index002.html"><img src="img/arrow_right.png"></a></td>
-        
-    </tr>
-</table>
+<div class="navigation">
+    <a href="index000.html"><img src="img/arrow_left.png" alt="part1" title="part1"></a>
+    <a href="index001.html"><img src="img/home.png" alt="part2" title="part2"></a>
+    <a href="index002.html"><img src="img/arrow_right.png" alt="part3" title="par3"></a>
+</div>
+<style>
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
 
 </body>
 </html>

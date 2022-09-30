@@ -12,6 +12,16 @@
             body {
                 margin: 8%;
             }
+            .link1 {
+                float: left;
+            }
+            .col1 {
+            float: left;
+            }
+            .col3 {
+            float: right;
+            }
+
         </style>
 
 </head>
@@ -101,14 +111,17 @@ print cntr</pre>
 В Python для указания на блоки кода используются не круглые "(" и фигурные "{" скобки 
 как в других языках программирования, а отступы.</p>
 
-<table align="center">
-    <tr>
-        <td align="left"><a href="index000.html"><img src="img/arrow_left.png" alt="part1" title="part1"></a></td>
-        <td align="center"><a href="index001.html"><img src="img/home.png" alt="part2" title="part2"></a>
-        <td align="right"><a href="index002.html"><img src="img/arrow_right.png" alt="part3" title="par3"></a></td>
-        
-    </tr>
-</table>
+<div class="navigation">
+    <a href="index000.html"><img src="img/arrow_left.png" alt="part1" title="part1"></a>
+    <a href="index001.html"><img src="img/home.png" alt="part2" title="part2"></a>
+    <a href="index002.html"><img src="img/arrow_right.png" alt="part3" title="par3"></a>
+</div>
+<style>
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
 
 
 </body>
