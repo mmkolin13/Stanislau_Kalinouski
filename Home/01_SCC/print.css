@@ -1,0 +1,13 @@
+    body {
+        margin: 4%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14px;
+        background-color: lightsteelblue;
+        }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+    pre {
+        font-family: 'Courier New', Courier, monospace;
+    }

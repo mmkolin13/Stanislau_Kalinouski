@@ -1,0 +1,23 @@
+    body {
+        margin: 8%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        background-color: orange ;
+    }
+
+    pre {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: burlywood;
+        border: 2px;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+    .example {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: burlywood;
+        border: 2px;
+    }
+    
+    
