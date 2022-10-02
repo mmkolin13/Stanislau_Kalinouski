@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+        <title>HOW-TO: Программа на Python, часть 1</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<img src="images/python.png" align="right" alt="Program_on_python" title="Program_on_python">
+<h1 align="center"><a name="a0">HOW-TO: Программа на Python, часть 1</a></h1>  
+<ul>
+    <li>
+        <em>
+            <a href="index.html">Программа на Python - часть 1</a>
+        </em>
+    </li>
+    <li>
+        <em>
+            <a href="index1.html">Программа на Python - часть 2</a>      
+        </em>
+    </li>
+    <li>
+        <em>
+            <a href="index2.html">Программа на Python - часть 3</a> 
+        </em>
+    </li>
+</ul>
+<h2>Содержание</h2>
+
+
+<h3>HOW-TO: Программа на Python, Часть 1</h3>
+    <ul>
+        <li>
+            <a href="#a1">Наша первая программа</a>
+        </li>
+        <li>
+            <a href="#a2">Пример цикла For</a>
+        </li>
+    </ul>
+<p>Из множества существующих языков программирования Python - один из самых лёгких
+в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не 
+обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим 
+создание консольных приложений, а в следующей - программирование графических 
+интерфейсов (<ins>GUI</ins>). Давайте создадим простую программу прямо сейчас.</p>
+
+<h2><a name="a1"> Наша первая программа</a></h2>
+
+<p><a href="#a0">К содержанию</a></p>
+
+<p>Наберём код в текстовом редакторе (например, в <b>gedit</b>). Потом мы разберёмся, что делает
+каждая строка и пойдем дальше.</p>
+<p>Введите эти 4 строки</p>
+<pre>#!/usr/bin/env python
+print 'hello. I am a python program.'
+name = raw_input("what is your name?")   
+print "hello there, " + name + :!")</pre>  
+
+<p>Это всё. Сохраните файл как <b>hello.py</b> в любом месте. Я предлагаю сохранить его в папке
+<b>python_examples</b>в домашнем каталоге. Этот пример показывает, как просто написать программу 
+на Python. Для запуска программы нужно сделать её файл исполняемым. Для этого введите в терминале</p>
+<ins>
+    <b>
+        chmod +x hello.py
+    </b>
+</ins>
+<p> в папке, в которой вы сохранили программу. Теперь запустим её.</p>
+
+<pre>greg@earth:~/python_example$ ./hello.py
+Hello. I am a python program.
+What is your name? Ferd Burphel   
+Hello there, Ferd Burphel!
+greg@earth:~/python_example$
+Вот и всё.</pre>
+
+<h2><a name="a2">Пример цикла For</a></h2>
+
+<p><a href="#a0">К содержанию</a></p>
+
+<hr>
+<p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+редактор и выберите следующую программу:</p>
+<pre>#!/usr/bin/env python
+for cntr in range(0,10)
+print cntr</pre>
+<i>Не забудьте поставить символ табуляции перед строкой "print cntr".</i><p>Это важно. 
+В Python для указания на блоки кода используются не круглые "(" и фигурные "{" скобки 
+как в других языках программирования, а отступы.</p>
+
+<div class="navigation">
+    <a href="index.html">
+        <svg width="142" height="90" viewBox="0 0 142 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="142" height="90" fill="white"/>
+        <path d="M16.9393 46.9393C16.3536 47.5251 16.3536 48.4749 16.9393 49.0607L26.4853 
+        58.6066C27.0711 59.1924 28.0208 59.1924 28.6066 58.6066C29.1924 58.0208 29.1924 57.0711 28.6066 56.4853L20.1213 
+        48L28.6066 39.5147C29.1924 38.9289 29.1924 37.9792 28.6066 37.3934C28.0208 36.8076 27.0711 36.8076 26.4853 
+        37.3934L16.9393 46.9393ZM124 46.5L18 46.5V49.5L124 49.5V46.5Z" fill="brown"/>
+        </svg>
+    </a>
+    <a href="index1.html">
+        <svg width="130" height="120" viewBox="0 0 130 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="11" y="61" width="109" height="59" fill="#C84D9E"/>
+            <path d="M65 0L129.952 61.5H0.0480957L65 0Z" fill="#3359BC"/>
+            <ellipse cx="65.5" cy="33.5" rx="7.5" ry="6.5" fill="#331212"/>
+            <line x1="65.5" y1="27" x2="65.5" y2="40" stroke="black"/>
+            <line x1="58" y1="32.5" x2="73" y2="32.5" stroke="black"/>
+            <rect x="19" y="73" width="27" height="14" fill="#D9D9D9"/>
+            <rect x="19" y="73" width="27" height="14" fill="#7C4242"/>
+            <rect x="88" y="73" width="26" height="14" fill="#7C4242"/>
+            <rect x="53" y="91" width="25" height="29" fill="#170707"/>
+        </svg>
+    </a>
+    <a href="index2.html">
+        <svg width="147" height="74" viewBox="0 0 147 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="147" height="74" fill="white"/>
+        <path d="M118.061 38.0607C118.646 37.4749 118.646 36.5251 118.061 35.9393L108.515 26.3934C107.929 25.8076 
+        106.979 25.8076 106.393 26.3934C105.808 26.9792 105.808 27.9289 106.393 28.5147L114.879 37L106.393 45.4853C105.808
+        46.0711 105.808 47.0208 106.393 47.6066C106.979 48.1924 107.929 48.1924 108.515 47.6066L118.061 38.0607ZM11 
+        38.5L117 38.5L117 35.5L11 35.5L11 38.5Z" fill="black"/>
+        </svg>
+    </a>
+</div>
+
+</body>
+</html>

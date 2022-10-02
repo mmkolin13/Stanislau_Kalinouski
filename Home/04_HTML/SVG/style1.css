@@ -1,0 +1,11 @@
+pre {
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    margin: 8%;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
