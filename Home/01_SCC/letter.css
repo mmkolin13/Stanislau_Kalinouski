@@ -1,0 +1,32 @@
+body{
+    margin: 150px;
+}
+
+.header{
+    text-align: end;
+    max-width: 350px;
+    position: relative;
+    right: 0px;
+    
+}
+@font-face {
+    font-family: Snell_Roundhand;
+    src: url(Snell_Roundhand.ttf);
+}
+.info{
+    font-family: Snell_Roundhand;
+    font-size: 22px;
+    text-indent: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+.title{
+    font-family: Snell_Roundhand;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+div{
+    line-height: 35px;
+}
