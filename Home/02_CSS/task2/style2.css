@@ -1,0 +1,21 @@
+.listmain{
+    max-width: 350px;
+    list-style-type: upper-roman;
+    font-weight: bold;
+}
+
+#listadd{
+    max-width: 350px;
+    list-style-type: lower-roman;
+    font-weight: lighter;
+}
+
+.container{
+    width: 400px;
+    color: rgb(31, 101, 31);
+    font-size: 20px;
+    background-color: black;
+    overflow: auto;
+    max-height: 120px;
+    white-space: pre;
+}

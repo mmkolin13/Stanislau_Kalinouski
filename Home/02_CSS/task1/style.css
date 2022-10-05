@@ -1,0 +1,107 @@
+.jack{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 980px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.queen{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 783px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nine{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 1182px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ace{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 386px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.joker{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 190px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.jack1{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 980px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.queen1{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 783px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    left: -100px;
+    border-radius: 20px;
+}
+
+.nine1{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 1182px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    left: -200px;
+    border-radius: 20px;
+}
+
+.ace1{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 386px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    left: -300px;
+    border-radius: 20px;
+}
+
+.joker1{
+    background: url(cards.png);
+    height: 190px;
+    width: 140px;
+    background-position: 0px 190px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    left: -400px;
+    border-radius: 20px;
+}
