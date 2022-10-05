@@ -3,9 +3,9 @@ body{
 }
 
 .header{
+    margin-left: auto;
     text-align: end;
     max-width: 350px;
-    position: relative;
     right: 0px;
     
 }
