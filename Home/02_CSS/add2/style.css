@@ -1,0 +1,49 @@
+h3{
+    margin: 0%;
+}
+.wrap{
+    min-width: 100%;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.2em;
+}
+.nav{
+    width: 15em;
+    padding: 5px;
+    background-color: antiquewhite;
+    border: solid 4px rgb(54, 66, 117);
+}
+.articles{
+    border: solid 4px coral;
+    background-color: rgb(223, 223, 194);
+
+}
+.article1, .article2{
+    margin-top: 0.2em;
+    padding: 5px;
+    background-color: rgb(175, 171, 171);
+}
+.mail{
+    float: right;
+}
+.footer{
+    padding: 5px;
+    background-color: rgba(226, 208, 255, 0.899);
+    border: 4px solid brown;
+}
+
+@media all and (max-width: 780px){
+    .container{
+        flex-direction: column;
+    }
+    .articles{
+        min-width: 15em;
+    }
+    }
+    .footer{
+        min-width: 15em;
+    }
+

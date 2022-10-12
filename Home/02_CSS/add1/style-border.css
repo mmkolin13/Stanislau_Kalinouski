@@ -1,0 +1,22 @@
+.container{
+    background: url(ramka.png);
+    background-repeat: no-repeat;
+}
+.text{
+    padding: 40px;
+    width: 360px;
+    height: 500px;
+}
+
+
+.wrap{
+    width: 350px;
+    height: 500px;
+}
+.text1{
+    padding: 40px;
+    background-image: url(t-l.png), url(t-r.png), url(b-r.png), url(b-l.png), url(l.png), url(t.png), url(r.png), url(b.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-x, repeat-y, repeat-x;
+    background-position: top left, top right, bottom right, bottom left, left, top, right, bottom; 
+
+}

@@ -9,12 +9,10 @@ body{
     right: 0px;
     
 }
-@font-face {
-    font-family: Snell_Roundhand;
-    src: url(Snell_Roundhand.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
 .info{
-    font-family: Snell_Roundhand;
+    font-family: 'Comforter Brush', cursive;
     font-size: 22px;
     text-indent: 20px;
     font-weight: 500;
@@ -22,7 +20,7 @@ body{
     margin-bottom: 35px;
 }
 .title{
-    font-family: Snell_Roundhand;
+    font-family:'Comforter Brush', cursive;
     text-decoration: underline;
     font-weight: 700;
     margin-bottom: 35px;
