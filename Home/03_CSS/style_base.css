@@ -1,0 +1,62 @@
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: relative;
+
+}
+nav ul > li {
+    width: 120px;
+    display: flex;
+    float: left;
+    position: relative;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+nav li:hover {
+    background-color: rgb(156, 154, 154);
+    cursor: pointer;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.5s linear;
+}
+
+nav ul ul li {
+    top: 100%;
+    left: 0%;
+    min-width: 120px;
+}
+
+@media all and (max-width: 760px){
+    nav ul > li {
+        position: relative;
+        float: none;
+    }
+    nav ul ul {
+        display: none;
+        
+        top: 100%;
+        left: 0%;
+    
+    }
+    nav ul li:hover > ul{
+        position: absolute;
+        flex-direction: row;
+    }
+    nav ul ul li {
+        transition: opacity 0.5s linear;
+        top: 0%;
+        left: 33%;
+        min-width: 120px;
+    }
+}
