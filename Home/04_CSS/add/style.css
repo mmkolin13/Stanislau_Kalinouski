@@ -1,0 +1,34 @@
+body{
+    margin: 50px;
+}
+p {
+    width: 600px;
+    padding: 5px;
+    border: 1px solid rgb(169, 169, 169);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+a {
+    position: relative;
+    margin: 0%;
+}
+
+a[href$='doc']::before{
+    content: url(../01/img/document.png);
+}
+a[href$='PDF']::before{
+    content: url(../01/img/pdf.png);
+}
+a[href$='fil']::before{
+    content: url(../01/img/files.jfif);
+}
+a[href$='arch']::before{
+    content: url(../01/img/archive.gif);
+}
+a[href$='word']::before{
+    content: url(../01/img/word.jfif);
+}
+
+
+

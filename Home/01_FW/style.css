@@ -1,0 +1,22 @@
+.menu, .article {
+    text-align: left;
+}
+a, .menu h2, h3 {
+    color: RGB(0,191,255);
+}
+.quote {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: rgb(187, 187, 187);
+}
+.quote_fat {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: underline;
+    background-color: rgb(187, 187, 187);
+}
+ul {
+    list-style-type: circle ;
+}

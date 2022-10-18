@@ -3,20 +3,30 @@ table{
     width: 800px;
     border: 5px solid black;
     border-collapse: collapse;
+    counter-reset:td 65;
 }
 
 td{
     width: 100px;
     height: 100px;
-    border: 3px solid black;
     border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    font-weight: bold;
 }
 
 
 
 tr:nth-child(odd) td:nth-child(odd){
     background-color: black;
+    color: #fff;
 }
 tr:nth-child(even) td:nth-child(even){
     background-color: black;
+    color: #fff;
+}
+td::before{
+    counter-increment: td -1;
+    content: counter(td);
 }
