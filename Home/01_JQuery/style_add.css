@@ -1,0 +1,23 @@
+.form {
+    width: 350px;
+    height: 100px;
+}
+#pass {
+    margin-bottom: 4px;
+
+}
+input {
+    border-radius: 3px;
+}
+input:hover {
+    border-color: blue;
+}
+button {
+    margin-top: 20px;
+}
+.wrong {
+    background-color: brown;
+}
+.right {
+    background-color: green;
+}

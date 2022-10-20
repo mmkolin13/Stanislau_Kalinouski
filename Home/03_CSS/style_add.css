@@ -20,20 +20,22 @@ nav li:hover {
     cursor: pointer;
 }
 nav ul ul {
-    display: none;
+    opacity: 0;
     position: absolute;
     top: 100%;
     left: 0%;
 }
 nav ul li:hover > ul {
-    display: flex;
-    flex-direction: column;
+    opacity: 1;
+    transform: translateY(20px);
+    transition: 1s;
 }
 
 nav ul ul li {
     top: 100%;
     left: 0%;
     min-width: 120px;
+    transition: 1s;
 }
 
 @media all and (max-width: 760px){
@@ -42,20 +44,20 @@ nav ul ul li {
         float: none;
     }
     nav ul ul {
-        display: none;
-        
+        opacity: 0;
         top: 100%;
         left: 0%;
     
     }
     nav ul li:hover > ul{
+        opacity: 1;
         position: absolute;
         flex-direction: row;
     }
     nav ul ul li {
-        transition: opacity 0.5s linear;
+        opacity: 1;
         top: 0%;
-        left: 33%;
+        left: 100%;
         min-width: 120px;
     }
 }

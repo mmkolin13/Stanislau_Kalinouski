@@ -1,0 +1,44 @@
+.table1 {
+    width: 700px;
+    position: absolute;
+    border-collapse: collapse;
+    border-spacing: 10px 10px;
+    cursor: pointer;
+}
+td {
+    border: 2px dotted gray;
+
+}
+th {
+    background-color: khaki;
+    border: 2px dotted gray;
+}
+tr {
+    background-color: rgb(221, 188, 148);
+}
+table caption {
+    text-transform: uppercase;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    font-size: 18px;
+    color: cornsilk;
+    background-color: cadetblue;
+    border: 2px solid rgb(22, 22, 161);
+    border-radius: 20px;
+}
+.button:hover {
+    background-color: rgb(49, 102, 106);
+    cursor: pointer;
+}
+.button:active {
+    transform: scale(0.96);
+}
+.button:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}
