@@ -20,20 +20,33 @@
   src="https://code.jquery.com/jquery-3.6.1.min.js"
   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
   crossorigin="anonymous"></script>
-<!--Я так и не понял, почему не оно не сработало-->
 <script>
-$(document).ready(function ($) {
-    $('input').click(function() {
-        var value = $('#pass').val();
-        var value2 = $('#pas_check').val();
-        if (value != value2){
-            $('input').css.addStyle('.wrong')
+$(document).ready(function(){
+    $('input').keypress(function(){
+        var pass = $('#pass').val()
+        var pass_check = $('#pass_check').val()
+        if (pass == pass_check){
+            $('input').css("background-color", "green")
         }
         else {
-            $('input').css.addStyle('.right')
+            $('input').css("background-color", "red")
         }
     });
 });
+
 </script>    
 </body>
 </html>
+
+<!-- $(document).ready(function(){
+    $('input').keydown(function(){
+        let value = $('#pass').val();
+        let value2 = $('#pass_check').val();
+        if (value == value2){
+            $('input').css("background-color", "Green")
+        }
+        else {
+            $('input').css("background-color", "Red")
+        }
+    });
+}); -->

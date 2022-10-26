@@ -4,6 +4,9 @@
 a, .menu h2, h3 {
     color: RGB(0,191,255);
 }
+h1 a {
+    color: black;
+}
 .quote {
     font-style: italic;
     font-size: 15px;
