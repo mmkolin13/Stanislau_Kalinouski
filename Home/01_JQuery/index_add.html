@@ -21,12 +21,16 @@
   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
   crossorigin="anonymous"></script>
 <script>
+// перепробовал десятки вариантов и сдался
 $(document).ready(function(){
     $('input').keypress(function(){
-        var pass = $('#pass').val()
-        var pass_check = $('#pass_check').val()
-        if (pass == pass_check){
+        var pass = document.getElementById('#pass').val();
+        var pass_check = document.getElementById('#pass_check').val();
+        if (pass.val() = pass_check.val()){
             $('input').css("background-color", "green")
+        }
+        else if (pass_check, pass = false){
+            $('input').css("background-color", "black")
         }
         else {
             $('input').css("background-color", "red")
@@ -37,16 +41,3 @@ $(document).ready(function(){
 </script>    
 </body>
 </html>
-
-<!-- $(document).ready(function(){
-    $('input').keydown(function(){
-        let value = $('#pass').val();
-        let value2 = $('#pass_check').val();
-        if (value == value2){
-            $('input').css("background-color", "Green")
-        }
-        else {
-            $('input').css("background-color", "Red")
-        }
-    });
-}); -->

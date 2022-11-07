@@ -15,9 +15,3 @@ input:hover {
 button {
     margin-top: 20px;
 }
-.wrong {
-    background-color: brown;
-}
-.right {
-    background-color: green;
-}
